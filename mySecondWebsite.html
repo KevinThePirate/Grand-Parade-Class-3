@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<style>
+			h1{
+				color: red;
+				font-family: 'DigitalStrip';	
+			}
+			p{
+				color: green;
+				font-family: Arial, Helvetica, sans-serif; /* This is how you get super specfic with fonts. Make sure you have the font you want to use installed and give the user options! */
+			}
+			img{
+				width: 50%;
+			}
+			a{ /* Combine to make link's power invisible! Still works but it just looks like text */
+				text-decoration: none;
+				color: inherit;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Big Hello! </h1>
+		<p> A Whole New Line! </p>
+		<p> 2 </p>
+		<p> New Line </p>
+		<p> And Another One! </p>
+		<img src="dog.jpg"> <!-- Image Tags Self Close. Src means source, gives directions. -->
+		<p>
+			Link to <a href="https://www.google.com/" target="_blank">  Facebook </a>
+		</p> <!-- A stands for anchor. Anchor links 2 pages together. -->
+		<a href="https://www.youtube.com/watch?v=kmCDd7goWtE">  Not So Cool Video </a>
+		<!-- Href = Hyper Reference (Hyper means internet). Make sure to include https://-->
+		<br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/kmCDd7goWtE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- This is how you embed youtube videos. You can find them below the video you want to embed -->
+		<br> <!-- br adds a line break -->
+		<!-- target="_blank" opens link in new tab  -->
+		<a href="https://www.wikipedia.org/" target="_blank">  <!-- This is called wrapping. This way you can have one element take on the properties of another. -->
+			<img src="wiki-logo.png"> <!-- Created an image that when you click, brings you to a new website.  -->
+		</a>
+	</body>
+</html>
